@@ -13,6 +13,6 @@ services:
     build: ./
     container_name: "java-app"
     ports:
-      - "8091:8090"
+      - "8090:8090"
     environment:
       - "db_url_hosts=postgres"
