@@ -7,7 +7,7 @@ services:
     environment:
       - "POSTGRES_USER=postgres"
       - "POSTGRES_PASSWORD=root"
-      - "POSTGRES_DB=test_jwt"
+      - "POSTGRES_DB=jwt"
 
   application:
     build: ./
